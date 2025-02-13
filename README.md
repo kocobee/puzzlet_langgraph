@@ -1,14 +1,15 @@
-# LangGraph with OpenAI
+# LangGraph with Puzzlet
 
-A simple hello world application using LangGraph with direct OpenAI API calls.
+A simple hello world application using LangGraph with Puzzlet
 
 ## Prerequisites
 
 - Node.js (v16 or higher)
-- npm or yarn
+- npm
 - OpenAI API key
 
 ## Setup
 
 1. Clone this repository
 2. Install dependencies:
+3. Run start
