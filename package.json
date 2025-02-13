@@ -1,0 +1,23 @@
+{
+  "name": "langgraph-hello-world",
+  "version": "1.0.0",
+  "description": "A basic LangGraph hello world application",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.45",
+    "@puzzlet/agentmark": "^2.2.0",
+    "@puzzlet/all-models": "^1.1.5",
+    "@puzzlet/openai": "^1.2.0",
+    "@puzzlet/sdk": "^2.1.0",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

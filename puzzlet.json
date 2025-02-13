@@ -1,0 +1,255 @@
+{
+  "puzzletPath": "/",
+  "modelSchemas": {
+    "gpt-3.5-turbo": {
+      "label": "GPT-3.5 Turbo",
+      "settings": {
+        "temperature": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.7,
+          "multipleOf": 0.01,
+          "label": "Temperature",
+          "order": 2,
+          "type": "slider"
+        },
+        "max_tokens": {
+          "minimum": 16,
+          "default": 4096,
+          "maximum": 4096,
+          "multipleOf": 1,
+          "label": "Max Tokens",
+          "order": 3,
+          "type": "slider"
+        },
+        "top_p": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 1,
+          "multipleOf": 0.01,
+          "label": "Top P",
+          "order": 4,
+          "type": "slider"
+        },
+        "frequency_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Frequency Penalty",
+          "order": 5,
+          "type": "slider"
+        },
+        "presence_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Presence Penalty",
+          "order": 6,
+          "type": "slider"
+        }
+      }
+    },
+    "gpt-4": {
+      "label": "GPT-4",
+      "settings": {
+        "temperature": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.7,
+          "multipleOf": 0.01,
+          "label": "Temperature",
+          "order": 2,
+          "type": "slider"
+        },
+        "max_tokens": {
+          "minimum": 16,
+          "default": 4096,
+          "maximum": 4096,
+          "multipleOf": 1,
+          "label": "Max Tokens",
+          "order": 3,
+          "type": "slider"
+        },
+        "top_p": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 1,
+          "multipleOf": 0.01,
+          "label": "Top P",
+          "order": 4,
+          "type": "slider"
+        },
+        "frequency_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Frequency Penalty",
+          "order": 5,
+          "type": "slider"
+        },
+        "presence_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Presence Penalty",
+          "order": 6,
+          "type": "slider"
+        }
+      }
+    },
+    "gpt-4-turbo": {
+      "label": "GPT-4 Turbo",
+      "settings": {
+        "temperature": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.7,
+          "multipleOf": 0.01,
+          "label": "Temperature",
+          "order": 2,
+          "type": "slider"
+        },
+        "max_tokens": {
+          "minimum": 16,
+          "default": 4096,
+          "maximum": 4096,
+          "multipleOf": 1,
+          "label": "Max Tokens",
+          "order": 3,
+          "type": "slider"
+        },
+        "top_p": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 1,
+          "multipleOf": 0.01,
+          "label": "Top P",
+          "order": 4,
+          "type": "slider"
+        },
+        "frequency_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Frequency Penalty",
+          "order": 5,
+          "type": "slider"
+        },
+        "presence_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Presence Penalty",
+          "order": 6,
+          "type": "slider"
+        }
+      }
+    },
+    "gpt-4o": {
+      "label": "GPT-4o",
+      "settings": {
+        "temperature": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.7,
+          "multipleOf": 0.01,
+          "label": "Temperature",
+          "type": "slider",
+          "order": 2
+        },
+        "max_tokens": {
+          "minimum": 16,
+          "default": 4096,
+          "maximum": 4096,
+          "multipleOf": 1,
+          "label": "Max Tokens",
+          "type": "slider",
+          "order": 3
+        },
+        "top_p": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 1,
+          "multipleOf": 0.01,
+          "label": "Top P",
+          "type": "slider",
+          "order": 4
+        },
+        "frequency_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Frequency Penalty",
+          "type": "slider",
+          "order": 5
+        },
+        "presence_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Presence Penalty",
+          "type": "slider",
+          "order": 6
+        }
+      }
+    },
+    "gpt-4o-mini": {
+      "label": "GPT-4o Mini",
+      "settings": {
+        "temperature": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.7,
+          "multipleOf": 0.01,
+          "label": "Temperature",
+          "type": "slider",
+          "order": 2
+        },
+        "max_tokens": {
+          "minimum": 16,
+          "default": 4096,
+          "maximum": 4096,
+          "multipleOf": 1,
+          "label": "Max Tokens",
+          "type": "slider",
+          "order": 3
+        },
+        "top_p": {
+          "minimum": 0,
+          "maximum": 1,
+          "default": 1,
+          "multipleOf": 0.01,
+          "label": "Top P",
+          "type": "slider",
+          "order": 4
+        },
+        "frequency_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Frequency Penalty",
+          "type": "slider",
+          "order": 5
+        },
+        "presence_penalty": {
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0,
+          "multipleOf": 0.01,
+          "label": "Presence Penalty",
+          "type": "slider",
+          "order": 6
+        }
+      }
+    }
+  }
+}

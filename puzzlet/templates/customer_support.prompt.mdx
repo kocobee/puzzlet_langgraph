@@ -1,0 +1,44 @@
+---
+name: customer_support
+metadata:
+  model:
+    name: gpt-4o
+    settings:
+      tools:
+        send_email:
+          description: Sends an email to the customer.
+          parameters:
+            type: object
+            properties:
+              body:
+                type: string
+                description: The body of the email.
+              title:
+                type: string
+                description: The title of the email.
+input_schema:
+  type: object
+  properties:
+    emailContent: { type: string }
+  required: ["emailContent"]
+test_settings:
+  props:
+    emailContent: "Hey, I've been trying to log into my account but keep getting an error message. Can you help?"
+---
+
+<System>
+You are a customer support assistant. Your task is to generate helpful email responses to customer inquiries.
+
+Follow these rules:
+1. Always start with a greeting
+2. Address the customer's issue directly
+3. Provide step-by-step instructions
+4. End with a polite closing
+
+</System>
+
+<User>
+Please generate a response to this customer email:
+
+Customer's message: {props.emailContent}
+</User>
