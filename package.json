@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@langchain/langgraph": "^0.2.45",
-    "@puzzlet/agentmark": "^2.2.0",
+    "@puzzlet/agentmark": "^2.2.2",
     "@puzzlet/all-models": "^1.1.5",
     "@puzzlet/openai": "^1.2.0",
     "@puzzlet/sdk": "^2.1.0",
